@@ -13,6 +13,6 @@ const movie = new Movie({
 // movie.fetchMovieVideo();
 // movie.fetchMovieGenres();
 
-movie.fetchTrendingMovies().then(data => {
-  mainMarkFilms.innerHTML = createMarkupCardsFilms(data.results);
-});
+// movie.fetchTrendingMovies().then(data => {
+//   mainMarkFilms.innerHTML = createMarkupCardsFilms(data.results);
+// });
